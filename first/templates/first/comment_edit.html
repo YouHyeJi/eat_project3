@@ -1,0 +1,10 @@
+{% extends 'first/layout.html' %}
+
+{% block content %}
+
+    <form method='POST'>
+        {% csrf_token %}
+        {{form.as_table}}
+        <button type="submit" class="btn-default">저장</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,14 @@
+.hi{
+    margin-top : 100px;
+}
+
+header.masthead {
+    background-image: url("../img/s.jpg");
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    color : peru;
+}
+
+.food{
+    margin-left: 10px;
+}
